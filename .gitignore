@@ -1,0 +1,15 @@
+# Dependency directories
+node_modules
+pnpm-lock.yaml
+
+# Build outputs
+dist
+build
+
+# Environment variables (CRITICAL)
+.env
+.env.local
+.env.*.local
+
+# Supabase
+supabase/.temp

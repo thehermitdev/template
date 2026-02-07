@@ -1,0 +1,21 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"pnpm --filter server dev\" \"pnpm --filter client dev\"",
+    "build": "pnpm -r build",
+    "db:start": "npx supabase start",
+    "db:stop": "npx supabase stop"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.28.2",
+  "devDependencies": {
+    "concurrently": "^9.2.1",
+    "supabase": "^2.76.1",
+    "typescript": "^5.9.3"
+  }
+}

@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Custom theme extensions can go here directly in v4 */
+@theme {
+  --font-display: "Satoshi", "sans-serif";
+}
